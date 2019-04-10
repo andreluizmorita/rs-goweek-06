@@ -7,7 +7,7 @@ const routes = express.Router();
 const BoxController = require('./controllers/BoxController');
 const FileController = require('./controllers/FileController');
 
-routes.get('', (req, res) => {
+routes.get('/', (req, res) => {
   return res.send('Hello World!');
 });
 
